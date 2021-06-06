@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(image.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    
+}
+.containe{
+    /* bottom: 50%; */
+    position: absolute;
+    z-index: 4;
+    width: 462px;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(67, 90, 88, 0.5);
+    top: 160px;
+}
+.formgroup{
+    margin-bottom: 10px;
+    border: 2px solid rgba(67, 90, 88, 0.5);
+    
+}
+.formgroup input{
+    padding-left: 20%;
+    height: 36px;
+    
+}
+.formgroup{
+    position: relative;
+    display: flex;
+}
+
+#ico{
+    position: absolute;
+    top: 2px;
+    left: 3px;
+}
+#icon{
+    position: absolute;
+    top: 2px;
+    left: 3px;
+}
+input:hover{
+    cursor: pointer;
+}
+.formgrou:hover{
+    border-color: black;
+    border-radius: 8px;
+}
+.formgrou{
+    position: absolute;
+    left: 37%;
+    border: 1px solid rgba(67, 90, 88, 0.5);
+}
+.formgrou #but{
+   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 142px;
+    background-color: rgb(20, 136, 36);
+    color: black;
+    
+    border-radius: 8px;
+    border-color: rgba(67, 90, 88, 0.5);
+}
+@media(max-width: 465px){
+    .containe{
+        width: 280px;
+        height: 225px;
+    }
+    .formgrou {
+       position: absolute;
+       left: 28%;
+       border: 1px solid rgba(67, 90, 88, 0.5);
+
+   }
+   .logi{
+       display: flex;
+       position: absolute;
+       bottom: 0px;
+   }
+}
+@media(max-height: 426px){
+    .containe{
+        position: absolute;
+        top: 96px;
+    }
+}
+@media(max-height: 362px){
+    .containe{
+        position: absolute;
+        top: 49px;
+    }
+}
+@media(max-height: 286px){
+    .containe{
+        position: absolute;
+        top: 22px;
+    }
+}
+.logi{
+    display: flex;
+    position: absolute;
+    bottom: 12px;
+}
